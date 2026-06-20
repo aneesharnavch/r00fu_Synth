@@ -1,0 +1,18 @@
+﻿No.,Quantity,Description ,Supplier,Supplier Part,Product Link ,Cost,Price (USD)
+1,7,100nF 0402 Decoupling Capacitor,LCSC,C2888326,https://www.lcsc.com/product-detail/C2888326.html,0.00093,0.00651
+2,6,10uF 0402 Decoupling Capacitor,LCSC,C307415,https://www.lcsc.com/product-detail/C307415.html,0.1492,0.8952
+3,4,1uF 0603 Charge bank Capacitor ,LCSC,C519560,https://www.lcsc.com/product-detail/C519560.html,0.0181,0.0724
+4,1,3.5mm Headphone Jack ,LCSC,C41347691,https://www.lcsc.com/product-detail/C41347691.html,2.273,2.273
+5,64,1N4148W Diode for Switches,LCSC,C917030,https://www.lcsc.com/product-detail/C917030.html,0.0061,0.3904
+6,3,220Ω 0603 Resistor ,LCSC,C114683,https://www.lcsc.com/product-detail/C114683.html,0.00017,0.00051
+7,1,10kΩ 0603 Resistor ,LCSC,C95204,https://www.lcsc.com/product-detail/C95204.html,0.0241,0.0241
+8,30,10kΩ Knob Potentiometer,LCSC,C209779,https://www.lcsc.com/product-detail/C209779.html,0.8401,25.203
+9,15,10kΩ Slide Potentiometer,LCSC,C5357832,https://www.lcsc.com/product-detail/C5357832.html,2.82,42.3
+10,2,DIN connector for MiDi ,LCSC,C2939347,https://www.lcsc.com/product-detail/C2939347.html,0.3249,0.6498
+11,1,Optocoupler for MiDi In setup,LCSC,C20082,https://www.lcsc.com/product-detail/C20082.html,0.5521,0.5521
+12,1,Amplifier for Headset/Speaker use,LCSC,C1520792,https://www.lcsc.com/product-detail/C1520792.html,2.1817,2.1817
+13,3,Analog Multiplexer for device management ,LCSC,C1545936,https://www.lcsc.com/product-detail/C1545936.html,2.71,8.13
+14,64,Mechanical Switches ,LCSC,C49234238,https://www.lcsc.com/product-detail/C49234238.html,0.1068,6.8352
+15,1,ESP32-S3-DevKitC-1 Wifi & Blutooth Dev Board,Aliexpress,S3-DevkitC-1-N32R16V,https://www.aliexpress.com/item/1005003979778978.html,15.52,15.52
+16,1,PCB,JLCPCB ,NA,https://cart.jlcpcb.com/quote?,28.4,28.4
+,,,,,,Total ,133.43392
