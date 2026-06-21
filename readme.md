@@ -251,6 +251,102 @@ static const int COL_PINS[MATRIX_COLS] = { 4, 5, 6, 7, 15, 16, 17, 18 };   //R
 ```
 
 # Files 
-
+```cmd
+C:.
+│   BOM_r00fu_synth.csv
+│   readme.md
+│   Zine_r00fu_Synth.pdf
+│
+├───Assets
+│       PCB_3D_Render_No_assembly_pic.png
+│       PCB_pic .png
+│       r00fuSynth_Assembly.png
+│       r00fuSynth_Assembly_pic.png
+│       r00fuSynth_base.png
+│       r00fuSynth_TopDown.png
+│       SCH_Schematic_r00fu_Synth.png
+│       Zine_r00fu_Synth.png
+│
+├───CAD_Files
+│       r00fusynth.f3z
+│       r00fusynth.step
+│
+├───Firmware
+│   ├───gui
+│   │   │   r00fu_config.py
+│   │   │   README.md
+│   │   │
+│   │   └───__pycache__
+│   │           r00fu_config.cpython-314.pyc
+│   │
+│   ├───prototype_single_file
+│   │       r00fu_synth_prototype.ino
+│   │
+│   └───r00fu_synth
+│       │   platformio.ini
+│       │   SETUP.md
+│       │
+│       ├───data
+│       ├───include
+│       │       config.h
+│       │       events.h
+│       │       midi_map.h
+│       │
+│       └───src
+│           │   main.cpp
+│           │
+│           ├───audio
+│           │       adsr.cpp
+│           │       adsr.h
+│           │       effects.cpp
+│           │       effects.h
+│           │       filter.cpp
+│           │       filter.h
+│           │       oscillator.cpp
+│           │       oscillator.h
+│           │       synth.cpp
+│           │       synth.h
+│           │       voice.cpp
+│           │       voice.h
+│           │
+│           ├───drivers
+│           │       button_matrix.cpp
+│           │       button_matrix.h
+│           │       config_protocol.cpp
+│           │       config_protocol.h
+│           │       midi_din.cpp
+│           │       midi_din.h
+│           │       mux.cpp
+│           │       mux.h
+│           │       pcm5102.cpp
+│           │       pcm5102.h
+│           │       usb_midi.cpp
+│           │       usb_midi.h
+│           │
+│           ├───sequencer
+│           │       sequencer.cpp
+│           │       sequencer.h
+│           │
+│           ├───storage
+│           │       midi_map.cpp
+│           │       presets.cpp
+│           │       presets.h
+│           │       settings.cpp
+│           │       settings.h
+│           │
+│           ├───system
+│           │       events.cpp
+│           │       tasks.cpp
+│           │       tasks.h
+│           │
+│           └───ui
+│                   modes.cpp
+│                   modes.h
+│
+└───PCB_Files
+        Gerber_r00fu_Synth.zip
+        PickAndPlace_r00fu_Synth .xlsx
+        Source_r00fu_Synth .epro
+```
 # Zine 
-
+<img width="2819" height="4000" alt="Zine_r00fu_Synth" src="https://github.com/user-attachments/assets/96cd2940-c680-4c29-9f4e-8fa782f55ff0" />
