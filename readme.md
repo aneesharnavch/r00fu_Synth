@@ -132,7 +132,7 @@ This is the wiring the firmware expects. It's all in `include/config.h` , Its t
 | MIDI IN               | MIDI_RX_PIN  | 44                    | DIN in through optocoupler    |
 # Setting up the the Hardware config ( the software that maps the buttons)
 
-This is the part of the firmware that actually makes the Synth work. run the ``gui/r00fu_config.py`` file to communicate with the synth across USB serial. Pressing a physical button should light up a square on the screen and you can configure it to a multitude of different applications. To run it , you only really need python and pyserial installed. If you don't have that done already, just run the following command in your terminal. 
+This is the part of the firmware that actually makes the Synth work. run the ``gui/r00fu_config.py`` file to communicate with the synth across USB serial. Pressing a physical button should light up a square on the python GUI and you can configure it  a bunch of different applications. To run it , you only really need python and pyserial installed. If you don't have that done already, just run the following command in your terminal. 
 
 ```cmd
 pip install pyserial
