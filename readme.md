@@ -192,26 +192,26 @@ It's a USB-MIDI control surface. So you can just plug the USB port into your co
 
 # Code Tweaks / Example implementation
 
-[FIRMWARE] `include/config.h`:
+`include/config.h`:
 ```cpp
 static const int ROW_PINS[MATRIX_ROWS] = { 8, 9, 10, 11, 12, 13, 14, 21 }; // COLS
 static const int COL_PINS[MATRIX_COLS] = { 4, 5, 6, 7, 15, 16, 17, 18 };   //ROWS
 ```
 
 `Knobs too jittery / too sluggish:` change the smoothing. Higher = smoother but laggier.
-[FIRMWARE] `include/config.h`:
+`include/config.h`:
 ```cpp
 #define ANALOG_SMOOTHING 0.10f   
 ```
 
-`Buttons feel mushy / double-trigger:` tune the debounce (how many stable 1 ms samples before it commits).
-[FIRMWARE] `include/config.h`:
+`Buttons feel weird / mis-inputs:` tune the debounce (how many stable 1 ms samples before it commits).
+`include/config.h`:
 ```cpp
 #define MATRIX_DEBOUNCE_COUNT 6  // lower = snappier but bouncier and vice versa
 ```
 
-`Want more/less polyphony:` more voices = richer chords but more CPU on the audio core.
-[FIRMWARE] `include/config.h`:
+if you want more voices = richer chords but more CPU on the audio core , change : 
+`include/config.h`:
 ```cpp
 #define NUM_VOICES 8  
 ```
