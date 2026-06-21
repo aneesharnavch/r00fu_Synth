@@ -1,6 +1,8 @@
 
 # R00fu Synth
-A digital groove box + synth + MIDI controller crammed into one box. 64 buttons , 25 knobs and 15 sliders to compose beats Mozart can only dream of. 
+<img width="645" height="452" alt="Cover_pic" src="https://github.com/user-attachments/assets/4408aaff-d5f2-4a53-8d4e-2affb69537de" />
+
+A digital groove box + synth + MIDI controller crammed into one box. 64 buttons , 25 knobs and 15 sliders to compose any beat you can imagine
 
 # How does it work? 
 The primary control is done via an ESP32S3 DevcitC-1 , With its two USB-C ports and it runs on two cores. Core 0 does the digital state checking. It scans all 64 buttons , 25 knobs and 15 sliders once every 1ms reading it through a 74HC4067 Analog MUX chip, It also checks for MIDI in Signal and runs the sequencer. Core 1 only uses the I2S protocol driving audio through the PCM5102A.
