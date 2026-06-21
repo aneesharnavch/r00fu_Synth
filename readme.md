@@ -166,10 +166,10 @@ If you do run into issues ? Most of the time its :-
 
 This is the fun part. The box is **5 instruments**, and you flip between them with a button you mapped to **Mode** (or send it from the GUI). The LED colour tells you where you are.
 
-### Mode 0 — Drum Machine
+### Mode 0 Drum Machine :
 8 drum tracks, the grid is your pads. Each pad is mapped (in the GUI) to a note that triggers a drum voice. Tap pads to play in real time.
 
-### Mode 1 — Step Sequencer (the loop machine)
+### Mode 1 Step Sequencer :
 
 The 64 buttons are physically wired to resemble a keyboard with 64 Switches, Some of the things you can use the boat for are :
 
@@ -178,11 +178,11 @@ The 64 buttons are physically wired to resemble a keyboard with 64 Switches, Som
 - **swing** 
 - **pattern chaining** 
 
-### Mode 2 — Keyboard (melodies & basslines)
+### Mode 2 Keyboard : 
 
 The grid becomes notes. Set you need to setup a  **scale** In the python script so every key you hit is in-key. Use **chord mode** to slam triads with one finger, and **octave** to move around. Play a bassline, play a lead, hold pads for pads (the synth-pad kind). The knobs/sliders are live ADSR + filter + OSC the whole time so you can use them in unison with the buttons.
 
-### Mode 3 — DAW Controller (the laptop mode)
+### Mode 3  DAW Controller :
 
 It's a **USB-MIDI control surface**. So you can just plug the USB port into your computer, open your DAW, and configure the following items :- 
 - **buttons** (Can be mapped to litterally anything a macro can be mapped to )
@@ -191,10 +191,6 @@ It's a **USB-MIDI control surface**. So you can just plug the USB port into you
     Everything leaves over USB-MIDI for the host to learn. This is the "I want the full DAW but I hate the mouse" mode.
 
 # Code Tweaks / Example implementation
-
-Each snippet says which file to edit. Labels:
-`[FIRMWARE]` = the C++ in `firmware/r00fu_synth/` (mostly `include/config.h`).
-`[GUI]` = the Python configurator (`gui/r00fu_config.py`).
 
 **[FIRMWARE] `include/config.h`:**
 ```cpp
