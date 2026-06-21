@@ -166,60 +166,29 @@ If you do run into issues ? Most of the time its :-
 
 This is the fun part. The box is **5 instruments**, and you flip between them with a button you mapped to **Mode** (or send it from the GUI). The LED colour tells you where you are.
 
-### Mode 0 — Drum Machine (BOOTS AND CATS)
-
-8 drum tracks, the grid is your pads. Each pad is mapped (in the GUI) to a note that triggers a drum voice. Tap pads to play in real time. This is your "finger drumming" mode - lay down a kick/snare/hat groove by feel.
+### Mode 0 — Drum Machine
+8 drum tracks, the grid is your pads. Each pad is mapped (in the GUI) to a note that triggers a drum voice. Tap pads to play in real time.
 
 ### Mode 1 — Step Sequencer (the loop machine)
 
-The 64 buttons become a **64-step grid**. Light up steps to place hits, and the box loops them. This is where a beat actually gets _built_:
+The 64 buttons are physically wired to resemble a keyboard with 64 Switches, Some of the things you can use the boat for are :
 
-- **mute/unmute tracks** live to bring parts in and out
-- **probability** per step so a hat only hits _sometimes_ and the loop breathes
-- **parameter locks** - lock a different filter/pitch value to a single step for that classic per-step movement
-- **swing** to drag it off-grid and make it groove instead of sounding like a robot
-- **pattern chaining** to string loops into a song
-
-Workflow: bang out a groove by ear in Drum mode → switch to Step Seq to tighten it up, add ghost notes and probability → chain a few patterns → done, that's a beat.
+- **mute/unmute tracks** 
+- **parameter locks** 
+- **swing** 
+- **pattern chaining** 
 
 ### Mode 2 — Keyboard (melodies & basslines)
 
-The grid becomes notes. Set a **scale** so every key you hit is in-key (no wrong notes, huge for not-keyboard-players), use **chord mode** to slam triads with one finger, and **octave/transpose** to move around. Play a bassline, play a lead, hold pads for pads (the synth-pad kind). The knobs/sliders are live ADSR + filter + OSC the whole time so you're shaping the sound as you play.
+The grid becomes notes. Set you need to setup a  **scale** In the python script so every key you hit is in-key. Use **chord mode** to slam triads with one finger, and **octave** to move around. Play a bassline, play a lead, hold pads for pads (the synth-pad kind). The knobs/sliders are live ADSR + filter + OSC the whole time so you can use them in unison with the buttons.
 
 ### Mode 3 — DAW Controller (the laptop mode)
 
-Now it's a **USB-MIDI control surface**. Plug the USB port into your computer, open your DAW, and:
-
-- **buttons** → clip-launch / mapped notes
-- **25 knobs** → MIDI CC (map them to plugin params, sends, whatever)
-- **15 sliders** → your **mixer faders**  
+It's a **USB-MIDI control surface**. So you can just plug the USB port into your computer, open your DAW, and configure the following items :- 
+- **buttons** (Can be mapped to litterally anything a macro can be mapped to )
+- **25 knobs** (map them to plugin params, sends, whatever)
+- **15 sliders**  (for faders or volume for individual subtracks)  
     Everything leaves over USB-MIDI for the host to learn. This is the "I want the full DAW but I hate the mouse" mode.
-
-### Mode 4 — Performance (live FX, the show-off mode)
-
-The box is **5 instruments**, and you flip between them with a button you mapped to **Mode** (or send it from the GUI). The LED color tells you where you are.
-### Mode 0 — Drum Machine (BOOTS AND CATS)
-8 drum tracks, the grid is your pads. Each pad is mapped (in the GUI) to a note that triggers a drum voice. Tap pads to play in real time. This is your "finger drumming" mode - lay down a kick/snare/hat groove by feel.
-### Mode 1 — Step Sequencer (the loop machine)
-
-The 64 buttons become a **64-step grid**. Light up steps to place hits, and the box loops them. This is where a beat actually gets *built*:
-- **mute/unmute tracks** live to bring parts in and out
-- **probability** per step so a hat only hits *sometimes* and the loop breathes
-- **parameter locks** - lock a different filter/pitch value to a single step for that classic per-step movement
-- **swing** to drag it off-grid and make it groove instead of sounding like a robot
-- **pattern chaining** to string loops into a song
-### Mode 2 — Keyboard (melodies & basslines)
-The grid becomes notes. Set a **scale** so every key you hit is in-key (no wrong notes, huge for not-keyboard-players), use **chord mode** to slam triads with one finger, and **octave/transpose** to move around. Play a bassline, play a lead, hold pads for pads (the synth-pad kind). The knobs/sliders are live ADSR + filter + OSC the whole time so you're shaping the sound as you play.
-### Mode 3 — DAW Controller (the laptop mode)
-
-Now it's a **USB-MIDI control surface**. Plug the USB port into your computer, open your DAW, and:
-- **buttons** → clip-launch / mapped notes
-- **25 knobs** → MIDI CC (map them to plugin params, sends, whatever)
-- **15 sliders** → your **mixer faders**
-Everything leaves over USB-MIDI for the host to learn. This is the "I want the full DAW but I hate the mouse" mode.
-### Mode 4 — Performance (live FX, the show-off mode)
-
-Momentary live effects - **hold** a pad and it does the thing, release and it stops. Filter sweeps, stutter, beat-repeat, tape-stop. This is for playing the loop *live*, mangling it in real time while it runs.
 
 # Code Tweaks / Example implementation
 
