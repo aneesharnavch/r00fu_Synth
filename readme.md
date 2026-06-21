@@ -192,13 +192,14 @@ It's a USB-MIDI control surface. So you can just plug the USB port into your co
 
 # Code Tweaks / Example implementation
 
+You can tune the switch matrix input stuff by changing
 include/config.h:
 ```cpp
 static const int ROW_PINS[MATRIX_ROWS] = { 8, 9, 10, 11, 12, 13, 14, 21 }; // COLS
 static const int COL_PINS[MATRIX_COLS] = { 4, 5, 6, 7, 15, 16, 17, 18 };   //ROWS
 ```
 
-Knobs too jittery / too sluggish: change the smoothing. Higher = smoother but laggier.
+If your Knobs too jittery / too sluggish: change the smoothing. General Rule of Thumb Higher = smoother but laggier.
 include/config.h:
 ```cpp
 #define ANALOG_SMOOTHING 0.10f   
@@ -210,7 +211,7 @@ include/config.h:
 #define MATRIX_DEBOUNCE_COUNT 6  // lower = snappier but bouncier and vice versa
 ```
 
-if you want more voices = richer chords but more CPU on the audio core , change : 
+If you want more voices or want to prioritize vocals change : 
 include/config.h:
 ```cpp
 #define NUM_VOICES 8  
