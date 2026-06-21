@@ -34,6 +34,8 @@ My friend ( on SoundCloud @r00fu ) is really into music , so being the great fri
 |     |          |                                              |            |                      |                                                       | Total   | 133.43392   |
 # PCB and Schematic 
 I designed it in EasyEDA Pro. You can find the Gerber files in the repo. The schematic and PCB are as follows : - 
+<img width="4698" height="3326" alt="SCH_Schematic_r00fu_Synth" src="https://github.com/user-attachments/assets/410b8ae2-5451-4ae2-a562-163bb8617471" />
+<img width="1112" height="752" alt="PCB_pic " src="https://github.com/user-attachments/assets/a9a8a405-dc3d-4627-8144-07e9cee68e5d" />
 
 # Assembly 
 
@@ -50,14 +52,16 @@ Note : Soldering Instructions are SUGGESTIONS and are typically personal prefere
 7. Make sure the  buttons are snug and level with the bottom before you let the solder reflow and solidify on the joints. The case will be slightly misaligned if you don't solder things in all the way down .
 8. Inspect everything with your eyes , looking at every component individually. Its recommended to use an Multimeter or an LCR meter to just sanity check all of the values and check for continuity on all of your passives (you can also sanity check the sliders and knobs if you just plug the board with power)
 9. Use some Isopropanol to clean the Flux and solder residue off the board and connect it to a power source to make sure it doesn't explode.
+
 # Case 
-
-The case is a beautiful rectangular enclosure with cutouts for the Knobs, Sliders and Switches with room left for the Keycaps to be put on after assembly. Some pictures showing it are here below : - 
-
+The case is a beautiful rectangular enclosure with cutouts for the Knobs, Sliders and Switches with room left for the Keycaps to be put on after assembly. I added a hackclub logo to the back for some represent, pictures showing it are here below : - 
+<img width="748" height="505" alt="r00fuSynth_TopDown" src="https://github.com/user-attachments/assets/226fd73c-49cd-454b-a682-34298a30ebb9" />
+<img width="848" height="552" alt="r00fuSynth_base" src="https://github.com/user-attachments/assets/73a5b95c-f908-4d71-a8cf-23b1ab59f9a0" />
 
 # Setting up the case
 
-The PCB without keycaps on should just drop onto the bottom plate of the case and you can align the top plates without much difficulty. Once your done with that , just slot in 4 M4 screws through the screw holes and shown in this picture below and you should b done 
+The PCB without keycaps on should just drop onto the bottom plate of the case and you can align the top plates without much difficulty. Once your done with that , just slot in 4 M4 screws through the screw holes and shown in this picture below and you should be done : - 
+<img width="1126" height="526" alt="r00fuSynth_Assembly_pic" src="https://github.com/user-attachments/assets/c6e9f0c3-bff4-4b4a-a871-142775271c3a" />
 
 # Hardware at a Glance 
 
