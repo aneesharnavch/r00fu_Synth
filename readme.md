@@ -173,21 +173,21 @@ This is the fun part. The box is **5 instruments**, and you flip between them w
 
 The 64 buttons are physically wired to resemble a keyboard with 64 Switches, Some of the things you can use the boat for are :
 
-- **mute/unmute tracks** 
-- **parameter locks** 
-- **swing** 
-- **pattern chaining** 
+- mute/unmute tracks
+- parameter locks
+- swing 
+- pattern chaining
 
 ### Mode 2 Keyboard : 
 
-The grid becomes notes. Set you need to setup a  **scale** In the python script so every key you hit is in-key. Use **chord mode** to slam triads with one finger, and **octave** to move around. Play a bassline, play a lead, hold pads for pads (the synth-pad kind). The knobs/sliders are live ADSR + filter + OSC the whole time so you can use them in unison with the buttons.
+The grid becomes notes. Set you need to setup a  scale In the python script so every key you hit is in-key. Use **chord mode** to slam triads with the buttons and move notes around with the slider
 
 ### Mode 3  DAW Controller :
 
-It's a **USB-MIDI control surface**. So you can just plug the USB port into your computer, open your DAW, and configure the following items :- 
-- **buttons** (Can be mapped to litterally anything a macro can be mapped to )
-- **25 knobs** (map them to plugin params, sends, whatever)
-- **15 sliders**  (for faders or volume for individual subtracks)  
+It's a USB-MIDI control surface. So you can just plug the USB port into your computer, open your DAW, and configure the following items :- 
+- buttons (Can be mapped to litterally anything a macro can be mapped to )
+- 25 knobs (map them to plugin params, sends, whatever)
+- 15 sliders  (for faders or volume for individual subtracks)  
     Everything leaves over USB-MIDI for the host to learn. This is the "I want the full DAW but I hate the mouse" mode.
 
 # Code Tweaks / Example implementation
