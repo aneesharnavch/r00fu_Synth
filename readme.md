@@ -1,6 +1,6 @@
 
 # R00fu Synth
-<img width="645" height="452" alt="Cover_pic" src="https://github.com/user-attachments/assets/4408aaff-d5f2-4a53-8d4e-2affb69537de" />
+<img width="645" height="452" alt="Cover_pic" src="https://github.com/user-attachments/assets/b260494e-fdfb-45d6-bbd5-ae07a7370887" />
 
 A digital groove box + synth + MIDI controller crammed into one box. 64 buttons , 25 knobs and 15 sliders to compose any beat you can imagine
 
@@ -316,4 +316,5 @@ C:.
         Source_r00fu_Synth .epro
 ```
 # Zine 
-<img width="2819" height="4000" alt="Zine_r00fu_Synth" src="https://github.com/user-attachments/assets/96cd2940-c680-4c29-9f4e-8fa782f55ff0" />
+<img width="2819" height="4000" alt="Zine_r00fu_Synth" src="https://github.com/user-attachments/assets/523e6bd1-65ef-42ac-a450-fdd34c129acf" />
+
