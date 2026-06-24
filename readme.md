@@ -57,14 +57,16 @@ Note : Soldering Instructions are SUGGESTIONS and are typically personal prefere
 
 # Case 
 The case is a beautiful rectangular enclosure with cutouts for the Knobs, Sliders and Switches with room left for the Keycaps to be put on after assembly. I added a hackclub logo to the back for some represent, pictures showing it are here below : - 
-<img width="748" height="505" alt="r00fuSynth_TopDown" src="https://github.com/user-attachments/assets/226fd73c-49cd-454b-a682-34298a30ebb9" />
+
+<img width="948" height="506" alt="Case_pic" src="https://github.com/user-attachments/assets/22ae5591-b0c9-4e35-b799-cd268edb3663" />
+<img width="867" height="469" alt="Assembly_grooves_pic" src="https://github.com/user-attachments/assets/22276d3b-be71-4188-b883-e87ad9804edb" />
 <img width="848" height="552" alt="r00fuSynth_base" src="https://github.com/user-attachments/assets/73a5b95c-f908-4d71-a8cf-23b1ab59f9a0" />
 
 # Setting up the case
 
 The PCB without keycaps on should just drop onto the bottom plate of the case and you can align the top plates without much difficulty. Once your done with that , just slot in 4 M4 screws through the screw holes and shown in this picture below and you should be done : - 
 <img width="1126" height="526" alt="r00fuSynth_Assembly_pic" src="https://github.com/user-attachments/assets/c6e9f0c3-bff4-4b4a-a871-142775271c3a" />
-
+<img width="641" height="612" alt="Screw_mount_pic" src="https://github.com/user-attachments/assets/d72721ae-2e28-4615-b42a-9375df80f9aa" />
 # Hardware at a Glance 
 
 | Subsystem | What it is                                           |
