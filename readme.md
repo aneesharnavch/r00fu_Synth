@@ -59,7 +59,7 @@ Note : Soldering Instructions are SUGGESTIONS and are typically personal prefere
 The case is a beautiful rectangular enclosure with cutouts for the Knobs, Sliders and Switches with room left for the Keycaps to be put on after assembly. I added a hackclub logo to the back for some represent, pictures showing it are here below : - 
 
 <img width="948" height="506" alt="Case_pic" src="https://github.com/user-attachments/assets/22ae5591-b0c9-4e35-b799-cd268edb3663" />
-<img width="867" height="469" alt="Assembly_grooves_pic" src="https://github.com/user-attachments/assets/22276d3b-be71-4188-b883-e87ad9804edb" />
+<img width="1257" height="672" alt="Internal_case_space" src="https://github.com/user-attachments/assets/7f7cb376-f6a0-427f-b8ae-bdcf8512812a" />
 <img width="848" height="552" alt="r00fuSynth_base" src="https://github.com/user-attachments/assets/73a5b95c-f908-4d71-a8cf-23b1ab59f9a0" />
 
 # Setting up the case
